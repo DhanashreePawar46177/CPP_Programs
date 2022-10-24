@@ -1,0 +1,22 @@
+using namespace std;
+
+#include<iostream>
+#include<conio.h>
+
+int main()
+{
+        int Num1 = 0, Num2 = 0, Sub = 0;
+
+        cout << "\n Enter 1st Number For Addition = " << endl;
+        cin >> Num1;
+
+        cout << "\n Enter 2nd Number For Addition = " << endl;
+        cin >> Num2;
+
+        Sub = Num1 - Num2;
+
+        cout << "\n Subtraction Of Two Numbers = " << Sub << endl;
+
+        getch();
+        return 0;
+}

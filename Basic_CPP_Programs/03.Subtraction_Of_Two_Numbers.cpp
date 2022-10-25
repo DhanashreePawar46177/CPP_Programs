@@ -15,7 +15,9 @@ int main()
 
         Sub = Num1 - Num2;
 
-        cout << "\n Subtraction Of Two Numbers = " << Sub << endl;
+        cout << "\n Subtraction " << Num1 << " and " << Num2 << " = " << Sub << endl;
+
+        cout << "\n Thanks !!!\n" << endl;
 
         getch();
         return 0;

@@ -14,7 +14,9 @@ int main()
 
         Sum = Num1 + Num2;
 
-        cout << "\n Addition Of Two Numbers = " << Sum << endl;
+        cout << "\n Addition Of " << Num1 << " and " << Num2 << " = " << Sum << endl;
+
+        cout << "\n Thanks !!!\n" << endl;
 
         getch();
         return 0;

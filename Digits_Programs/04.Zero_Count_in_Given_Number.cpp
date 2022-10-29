@@ -23,12 +23,11 @@ int main()
         while(Temp > 0)
         {
                 Dig = Temp % 10;
-                Temp = Temp /10;
-
                 if(Dig == 0)
                 {
                         zCnt++;
                 }
+                Temp = Temp /10;
         }
 
         cout << "\n Zero Count in " << No << " = " << zCnt << endl;

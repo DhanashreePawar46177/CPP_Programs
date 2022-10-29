@@ -22,12 +22,13 @@ int main()
         while(Temp > 0)
         {
                 Dig = Temp % 10;
-                Temp = Temp / 10;
                 if(Dig % 2 == 1)
                 {
                         oCnt++;
                 }
+                Temp = Temp / 10;
         }
+
 
         cout << "\n Odd Number Count in " << No << " = " << oCnt << endl;
         cout << "\n Thanks !!!\n" << endl;

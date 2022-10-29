@@ -13,12 +13,13 @@ int main()
         while(Temp > 0)
         {
                 Dig = Temp % 10;
-                Temp = Temp / 10;
                 if(Dig % 2 == 0 && Dig != 0)
                 {
                     eCnt++;
                 }
+                Temp = Temp / 10;
         }
+
 
         cout << "\n Even Count in " << No << " = " << eCnt << endl;
         cout <<"\n Thanks !!!\n" << endl;

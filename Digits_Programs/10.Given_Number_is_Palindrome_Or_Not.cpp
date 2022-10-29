@@ -19,12 +19,13 @@ int main()
                goto Up;
         }
 
-        while(Temp > 0)
+       while(Temp > 0)
         {
                 Dig = Temp % 10;
-                Temp = Temp / 10;
                 Rev = (Rev * 10) + Dig;
+                Temp = Temp / 10;
         }
+        
         if(No == Rev)
         {
                 cout << "\n" << No << " is Palindrome." << endl;

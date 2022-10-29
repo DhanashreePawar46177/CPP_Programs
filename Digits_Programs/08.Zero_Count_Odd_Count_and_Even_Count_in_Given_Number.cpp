@@ -22,7 +22,6 @@ int main()
         while(Temp > 0)
         {
                 Dig = Temp % 10;
-                Temp = Temp / 10;
                 if(Dig == 0)
                 {
                         Z_Cnt++;
@@ -35,6 +34,7 @@ int main()
                 {
                         O_Cnt++;
                 }
+                Temp = Temp / 10;
         }
 
         cout << "\n Count Of Zero Count in " << No << " = " << Z_Cnt << endl;

@@ -22,8 +22,8 @@ int main()
         while(Temp > 0)
         {
                 Dig = Temp % 10;
-                Temp = Temp / 10;
                 Rev = (Rev * 10) + Dig;
+                Temp = Temp / 10;
         }
 
         cout << "\n The Reverse Of " << No << " = " << Rev << endl;

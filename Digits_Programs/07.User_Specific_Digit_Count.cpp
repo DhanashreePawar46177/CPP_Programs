@@ -25,11 +25,11 @@ int main()
         while(Temp > 0)
         {
                 Dig = Temp % 10;
-                Temp = Temp / 10;
                 if(Dig == f_Dig)
                 {
                         Cnt++;
                 }
+                Temp = Temp / 10;
         }
         cout << "\n The Count Of " << f_Dig << " in " << No << " = " << Cnt << endl;
         cout << "\n Thanks !!!\n" << endl;

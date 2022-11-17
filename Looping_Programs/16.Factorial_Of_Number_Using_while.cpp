@@ -19,7 +19,7 @@ int main()
         }
         cout << "\n Factorial Of " << Num << " = " << Fact << endl;
 
-        cout << "\n Thanks !!!" << endl;;
+        cout << "\n Thanks !!!" << endl;
         getch();
         return 0;
 }

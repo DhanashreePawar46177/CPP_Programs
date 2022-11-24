@@ -20,7 +20,6 @@ int main()
               cout << "\n\t  Karad" << endl;
         }
         cout << "\n\n\t Thanks !!!" << endl;
-
         getch();
         return 0;
 }

@@ -19,8 +19,8 @@ int main()
               k = k+4;
               cout << "\n\t  Karad" << endl;
         }
-        cout << "\n\n\t Thanks !!!" << endl;
 
+        cout << "\n\n\t Thanks !!!" << endl;
         getch();
         return 0;
 }

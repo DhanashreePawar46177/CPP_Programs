@@ -15,7 +15,7 @@ int main()
 
          cout << "\n\n\t=========********=========\n" << endl;
 
-         cout << "\n\t Thanks !!!\n" << endl;
+         cout << "\n\t Thanks !!! \n" << endl;
 
          getch();
          return 0;

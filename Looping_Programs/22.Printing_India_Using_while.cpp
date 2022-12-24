@@ -11,7 +11,7 @@ int main()
          i = 1;
          while( i <= 5)
          {
-              cout << "\n\t\t India" << endl;
+              cout << "\n\t\t India." << endl;
               i++;
          }
 

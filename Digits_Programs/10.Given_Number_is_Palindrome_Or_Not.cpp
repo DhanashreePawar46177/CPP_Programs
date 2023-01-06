@@ -34,7 +34,7 @@ int main()
         {
                 cout << "\n" << No << " is Not Palindrome." << endl;
         }
-        cout << "\n Thanks !!!\n" << endl;
+        cout << "\n Thanks !!! \n" << endl;
 
         getch();
         return 0;
